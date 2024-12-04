@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+.parent{
+    background-image: url(../image.jpg);
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.ad{
+    position: absolute;
+    top:45%;
+    left:50%;
+    height:100px;
+    width: 50px;
+}
+.nav{
+   
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+.pain{
+    list-style: none;
+    margin: 0 20px;
+}
+.pain:hover{
+    background-color: white;
+    color: skyblue;
+    border-radius: 20px;
+    padding:5px 5px;
+}
+h1{
+    text-align: center;
+    font-size:x-large
+}
+.center{
+    flex: 2;
+    color: white;
+    text-align: center;
+    padding:200px;
+    font-size:xxx-large;
+    letter-spacing:10px;
+    padding-left: 280px;
+}
+.main{
+    padding:1px;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+
+}
+.child,.child1,.child2{
+    margin: 0;
+    padding: 0;
+    
+}
+.child img{
+    width: 100%;
+    height: 100%;
+}
+.child1{
+    background-image: url("../palm.jpg");
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+
+}
+.hd1{
+    position: absolute;
+    display: flex;
+    top: 63%;
+    left: 40%;
+}
+.p1{
+    position: absolute;
+    display: flex;
+    top:65%;
+    left:30%;
+}
+.child2{
+    background-image: url("../photo.jpg");
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+
+}
+.hd2{
+    position: absolute;
+    display: flex;
+    top: 63%;
+    left: 40%;
+}
+.p2{
+    position: absolute;
+    display: flex;
+    text-align:justify;
+    top:68%;
+    left:28%;
+}
+
+.child2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.child h1{
+    padding: 160px 60px;
+    margin:0 1px;
+    text-align: center;
+    position: absolute;
+    font-weight: bolder;
+    font-size: 45px;
+    left:8%;
+
+
+}
+.child p{
+    padding:230px 100px;
+    margin:10px;
+    position: absolute;
+    text-align: justify;
+    display: flex;
+
+}
+
+.child h6{
+    position:relative;
+    text-align: center;
+    top:50%;
+    
+}
+
+.child3 h1{
+    padding:160px 70px;
+    margin:0 1px;
+    text-align: center;
+    position: absolute;
+    font-weight: bolder;
+    font-size: 40px;
+    left:52%;
+}
+.child3 p{
+    padding:230px 100px;
+    position: absolute;
+    text-align: justify;
+    display: flex;
+}
+.child3 h6{
+    position: absolute;
+    text-align: center;
+    top:225%;
+    left:70%;
+}
+.child1 h1{
+    text-align:justify;
+    position:relative;
+
+} 
+.child1 p{
+    text-align: justify;
+    position: relative;
+}
+.sub{
+    color: darkgray;
+    text-align: center;
+    font-size: xx-large;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1px;
+    margin: 5px ;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    margin: 90px;
+    text-align:center;
+}
+.container p{
+    padding-top: 40px 70px;
+    margin-left: 10px;
+    top: 10%;
+    left: 80%;
+    transform: translate(-10%,-10%);
+}
+.img{
+    width: 70%;
+    height: 70%;
+}
+.img img{
+    object-fit: cover;
+    width: 50%;
+    height:50%;
+    margin-left: 30px;
+    border-radius:100%;
+}
+
+.ma{
+   padding: 0; 
+   background-color: white;
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+}
+.main1{
+    background-image: url("/pics/milkbottle.jpg");
+    height: 60vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.main2{
+    background-image: url("/pics/orange.jpg");
+    height: 60vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.main3{
+    background-image: url("/pics/cone.jpg");
+    height: 60vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.main4{
+    background-image: url("/pics/sugarcubes.jpg");
+    height: 60vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+footer{
+    background-color: cadetblue;
+    padding:30px;
+}
+footer h1{
+    text-align: center;
+}
+footer ul{
+    padding-left: 500px;
+    padding-right: 500px;
+    margin: 30px;
+}
+
